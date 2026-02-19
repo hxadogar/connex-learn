@@ -44,7 +44,7 @@ const LoginForm = () => {
       <form onSubmit={handleSubmit}>
         <input
           type="email"
-          placeholder="a@b.com"
+          placeholder="example@gmail.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
