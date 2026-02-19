@@ -44,13 +44,13 @@ const LoginForm = () => {
       <form onSubmit={handleSubmit}>
         <input
           type="email"
-          placeholder="Email"
+          placeholder="a@b.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
         <input
           type="password"
-          placeholder="Password"
+          placeholder="********"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
